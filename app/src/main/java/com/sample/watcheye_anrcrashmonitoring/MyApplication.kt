@@ -14,7 +14,7 @@ class MyApplication : Application() {
 
         val firebaseCrashlytics = FirebaseCrashlytics.getInstance()
 
-        // Initialize and start GrizzlyMonitor with custom settings
+        // Initialize and start Watch Eye Monitor Builder with custom settings
         WatchEyeMonitorBuilder(this)
             .setTimeTicker(200L) // Set ticker interval (1-500ms)
             .setTimeThreshold(3000L) // Set ANR threshold (1000-4500ms)
