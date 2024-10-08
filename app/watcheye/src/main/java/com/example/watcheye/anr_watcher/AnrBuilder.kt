@@ -1,4 +1,5 @@
-package com.sample.watcheye_anrcrashmonitoring.anr_watcher
+package com.example.watcheye.anr_watcher
+
 
 
 

@@ -1,6 +1,7 @@
-package com.sample.watcheye_anrcrashmonitoring.crash_watcher
+package com.example.watcheye.crash_watcher
 
 import android.content.Context
+import com.example.watcheye.crash_watcher.CrashMonitor
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 
 internal class CrashMonitorBuilder(private val context: Context) {

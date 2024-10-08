@@ -1,4 +1,4 @@
-package com.sample.watcheye_anrcrashmonitoring.exception_handler
+package com.example.watcheye.exception_handler
 
 import android.content.Context
 import com.google.firebase.crashlytics.FirebaseCrashlytics

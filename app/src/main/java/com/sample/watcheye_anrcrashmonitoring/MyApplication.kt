@@ -1,8 +1,7 @@
 package com.sample.watcheye_anrcrashmonitoring
 
 import android.app.Application
-import com.google.firebase.crashlytics.FirebaseCrashlytics
-import com.sample.watcheye_anrcrashmonitoring.monitor_watcher.WatchEyeMonitorBuilder
+import com.example.watcheye.monitor_watcher.WatchEyeMonitorBuilder
 
 class MyApplication : Application() {
     override fun onCreate() {
@@ -12,17 +11,14 @@ class MyApplication : Application() {
         WatchEyeMonitorBuilder(this).build().start()
 
 
-        val firebaseCrashlytics = FirebaseCrashlytics.getInstance()
-
         // Initialize and start Watch Eye Monitor Builder with custom settings
-        WatchEyeMonitorBuilder(this)
-            .setTimeTicker(200L) // Set ticker interval (1-500ms)
+        //val firebaseCrashlytics = FirebaseCrashlytics.getInstance()
+        WatchEyeMonitorBuilder(this).setTimeTicker(200L) // Set ticker interval (1-500ms)
             .setTimeThreshold(3000L) // Set ANR threshold (1000-4500ms)
             .setErrorTitle("Error Title") // Set custom crash dialog title
             .setErrorMessage("Error Message") // Set custom crash dialog message
-            .setFirebaseCrashLytics(firebaseCrashlytics) // Integrate with Firebase Crashlytics
-            .build()
-            .start()
+             //.setFirebaseCrashLytics(firebaseCrashlytics) // Integrate with Firebase Crashlytics
+            .build().start()
 
 
     }

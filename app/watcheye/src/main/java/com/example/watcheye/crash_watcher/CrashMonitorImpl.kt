@@ -1,8 +1,9 @@
-package com.sample.watcheye_anrcrashmonitoring.crash_watcher
+package com.example.watcheye.crash_watcher
 
 import android.content.Context
-import com.sample.watcheye_anrcrashmonitoring.exception_handler.CustomExceptionHandler
-import com.sample.watcheye_anrcrashmonitoring.exception_handler.CustomExceptionHandlerImpl
+import com.example.watcheye.crash_watcher.CrashMonitor
+import com.example.watcheye.exception_handler.CustomExceptionHandler
+import com.example.watcheye.exception_handler.CustomExceptionHandlerImpl
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import java.lang.Thread.UncaughtExceptionHandler
 

@@ -1,7 +1,8 @@
-package com.sample.watcheye_anrcrashmonitoring.crash_watcher
+package com.example.watcheye.crash_watcher
 
 import android.content.Context
 import com.google.firebase.crashlytics.FirebaseCrashlytics
+
 
 interface CrashMonitor {
     var mContext:Context

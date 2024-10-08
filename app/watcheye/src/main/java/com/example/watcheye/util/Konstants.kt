@@ -1,4 +1,4 @@
-package com.sample.watcheye_anrcrashmonitoring.util
+package com.example.watcheye.util
 
 object Konstants {
     val EXTRA_TITLE = "title"

@@ -1,11 +1,12 @@
-package com.sample.watcheye_anrcrashmonitoring.exception_handler
+package com.example.watcheye.exception_handler
 
 
 import android.content.Context
 import android.content.Intent
-import com.sample.watcheye_anrcrashmonitoring.util.Konstants.EXTRA_MESSAGE
-import com.sample.watcheye_anrcrashmonitoring.util.Konstants.EXTRA_TITLE
-import com.sample.watcheye_anrcrashmonitoring.MainActivity
+import com.example.watcheye.WatchActivity
+import com.example.watcheye.util.Konstants.EXTRA_MESSAGE
+import com.example.watcheye.util.Konstants.EXTRA_TITLE
+
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlin.system.exitProcess
 
@@ -23,7 +24,7 @@ class CustomExceptionHandlerImpl(
 
     fun launchReportActivity(context: Context, title:String, msg:String){
         context.startActivity(
-            Intent(context, MainActivity::class.java).apply {
+            Intent(context, WatchActivity::class.java).apply {
                 putExtra(EXTRA_TITLE,title)
                 putExtra(EXTRA_MESSAGE,msg)
                 addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)

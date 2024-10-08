@@ -1,4 +1,4 @@
-package com.sample.watcheye_anrcrashmonitoring.anr_watcher
+package com.example.watcheye.anr_watcher
 
 internal class AnrMonitorException(title:String, stacktrace:Array<StackTraceElement>):Throwable(title) {
     init {

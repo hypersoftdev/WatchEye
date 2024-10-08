@@ -1,9 +1,9 @@
-package com.sample.watcheye_anrcrashmonitoring.monitor_watcher
+package com.example.watcheye.monitor_watcher
 import android.content.Context
-import com.sample.watcheye_anrcrashmonitoring.anr_watcher.AnrMonitorBuilder
-import com.sample.watcheye_anrcrashmonitoring.anr_watcher.AnrMonitorBuilder.THRESHOLD_DEFAULT
-import com.sample.watcheye_anrcrashmonitoring.anr_watcher.AnrMonitorBuilder.TICKER_DEFAULT
-import com.sample.watcheye_anrcrashmonitoring.crash_watcher.CrashMonitorBuilder
+import com.example.watcheye.anr_watcher.AnrMonitorBuilder
+import com.example.watcheye.anr_watcher.AnrMonitorBuilder.THRESHOLD_DEFAULT
+import com.example.watcheye.anr_watcher.AnrMonitorBuilder.TICKER_DEFAULT
+import com.example.watcheye.crash_watcher.CrashMonitorBuilder
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 
 /**
