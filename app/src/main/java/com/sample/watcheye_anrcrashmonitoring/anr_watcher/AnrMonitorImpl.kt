@@ -2,7 +2,7 @@ package com.sample.watcheye_anrcrashmonitoring.anr_watcher
 
 import android.os.Handler
 import android.os.Looper
-import android.util.Log
+
 
 internal class AnrMonitorImpl(
     override var mTicker: Long,
