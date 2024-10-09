@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "WatchEye - ANR & Crash Monitoring"
 include(":app")
-include(":app:watcheye")
+include(":watcheye")
