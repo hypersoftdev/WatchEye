@@ -33,8 +33,8 @@ Add the WatchEyeMonitor dependency to your root build.gradle file
 	
 
 Add the WatchEyeMonitor dependency to your build.gradle file
-```
-implementation("com.github.hypersoftdev:WatchEye:Tag")
+
+     implementation("com.github.hypersoftdev:WatchEye:Tag")
 
 ### Setup Tutorial
 
