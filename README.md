@@ -9,11 +9,15 @@ enhancing the resilience and stability of your applications.
 
 # **Key Features:**
 
-**ANR Monitoring**: Detects when the main thread remains busy beyond a specified threshold, triggering an exception to alert you.
-**Crash Handling**: Captures unexpected crashes and presents a customizable crash dialog, improving the user experience.
-**Firebase Crashlytics** Integration: Seamlessly integrates with Firebase Crashlytics for enhanced crash reporting and analysis.
-**Default Configuration**: Requires minimal setup, allowing you to get started quickly with default settings.
-**Customization Options**: Provides flexibility to customize the ticker interval, ANR threshold, crash dialog title, message, and more to suit your specific needs.
+- **ANR Monitoring**: Detects when the main thread remains busy beyond a specified threshold, triggering an exception to alert you.
+
+- **Crash Handling**: Captures unexpected crashes and presents a customizable crash dialog, improving the user experience.
+
+- **Firebase Crashlytics** Integration: Seamlessly integrates with Firebase Crashlytics for enhanced crash reporting and analysis.
+
+- **Default Configuration**: Requires minimal setup, allowing you to get started quickly with default settings.
+
+- **Customization Options**: Provides flexibility to customize the ticker interval, ANR threshold, crash dialog title, message, and more to suit your specific needs.
 
 
 # **Implementation**
