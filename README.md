@@ -40,11 +40,11 @@ implementation("com.github.hypersoftdev:WatchEye:Tag")
 
 #### Minimum Setup
 
-For the minimum setup, simply build and start the GrizzlyMonitor with the default configuration.
+For the minimum setup, simply build and start the WatchEyeMonitor with the default configuration.
 
-#### Initialize GrizzlyMonitor:
+#### Initialize WatchEyeMonitor:
 
-In your application class, initialize and start the GrizzlyMonitor.
+In your application class, initialize and start the WatchEyeMonitor.
 
 ```
 import android.app.Application
