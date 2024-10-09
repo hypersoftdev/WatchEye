@@ -90,6 +90,32 @@ class App : Application() {
 
 ```
 
+# Acknowledgements
+
+This work would not have been possible without the invaluable contributions of [Hamza Arshad](https://github.com/Hamza384). His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
+
+![Profile](https://github.com/hypersoftdev/PuzzleLayout/blob/master/screens/image_profile.jpg?raw=true)
+
+We are deeply grateful for [Hamza Arshad](https://github.com/Hamza384) involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
+
+# LICENSE
+
+Copyright 2023 Hypersoft Inc
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
+
 
 
 
