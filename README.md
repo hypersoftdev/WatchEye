@@ -65,7 +65,7 @@ This minimal setup is sufficient to start monitoring ANRs and crashes with the d
 
 ### Full Setup with Custom Configuration
 
-To utilize all the customizable options available in GrizzlyMonitor, follow the steps below.
+To utilize all the customizable options available in WatchEyeMonitor, follow the steps below.
 
 ```
 import android.app.Application
