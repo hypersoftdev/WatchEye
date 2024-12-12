@@ -47,4 +47,10 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(project(":watcheye"))
 
+
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.google.firebase.crashlytics)
+    implementation(libs.google.firebase.analytics)
+
+
 }

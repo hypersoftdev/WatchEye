@@ -38,6 +38,25 @@ Add the WatchEyeMonitor dependency to your build.gradle file
 
 ### Setup Tutorial
 
+
+### Step 1
+
+[Add firebase to your Android App](https://firebase.google.com/docs/android/setup)
+
+#### Note:
+After completion of step one, your project should have a google-services.json file added to the root of your project along with the classpath, plugin and dependecies
+
+#### Classpath in project level build.gradle
+```
+    classpath 'com.google.gms:google-services:latest-version'
+```
+or latest
+```
+    id 'com.google.gms.google-services' version 'latest-version' apply false
+```
+
+### Step 2
+
 #### Minimum Setup
 
 For the minimum setup, simply build and start the WatchEyeMonitor with the default configuration.
