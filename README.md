@@ -126,6 +126,10 @@ class App : Application() {
 | `setFirebaseCrashLytics` | reference | Integrate with Firebase Crashlytics. |
 
 
+## Screen Shot
+<img src="screen1.jpg" width="25%" height="45%"/>
+
+
 
 # Acknowledgements
 
