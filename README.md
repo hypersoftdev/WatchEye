@@ -23,18 +23,20 @@ enhancing the resilience and stability of your applications.
 
 Add the WatchEyeMonitor dependency to your root build.gradle file
 
-	dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
-		}
-	} 
+```
+repositories {
+    google()
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+```
 	
 
 Add the WatchEyeMonitor dependency to your build.gradle file
 
-     implementation("com.github.hypersoftdev:WatchEye:Tag")
+```
+implementation 'com.github.hypersoftdev:WatchEye:x.x.x'
+```
 
 ### Setup Tutorial
 
@@ -67,7 +69,7 @@ In your application class, initialize and start the WatchEyeMonitor.
 
 ```
 import android.app.Application
-import com.example.watcheye.monitor_watcher.WatchEyeMonitorBuilder
+import com.hypersoft.watcheye.monitor_watcher.WatchEyeMonitorBuilder
 
 class App : Application() {
     override fun onCreate() {
@@ -88,7 +90,7 @@ To utilize all the customizable options available in WatchEyeMonitor, follow the
 
 ```
 import android.app.Application
-import com.example.watcheye.monitor_watcher.WatchEyeMonitorBuilder
+import com.hypersoft.watcheye.monitor_watcher.WatchEyeMonitorBuilder
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 
 class App : Application() {
@@ -113,7 +115,7 @@ class App : Application() {
 
 This work would not have been possible without the invaluable contributions of [Hamza Arshad](https://github.com/Hamza384/hamzaarshad). His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
 
-![Profile](https://github.com/hypersoftdev/WatchEye/blob/master/screens/image.jpg?raw=true)
+![Profile](https://github.com/hypersoftdev/WatchEye/blob/master/screens/profile_image.jpg?raw=true)
 
 We are deeply grateful for [Hamza Arshad](https://github.com/Hamza384/hamzaarshad) involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
 
