@@ -111,6 +111,19 @@ class App : Application() {
 
 ```
 
+
+## Attribute Summary
+
+| Attribute                | Format    | Description                          |
+|--------------------------|-----------|--------------------------------------|
+| `setTimeTicker`          | Long      | Set ticker interval (1-500ms).       |
+| `setTimeThreshold`       | Long      | Set ANR threshold (1000-4500ms).     |
+| `setErrorTitle`          | string    | Set custom crash dialog title.       |
+| `setErrorMessage`        | string    | Set custom crash dialog message.     |
+| `setFirebaseCrashLytics` | reference | Integrate with Firebase Crashlytics. |
+
+
+
 # Acknowledgements
 
 This work would not have been possible without the invaluable contributions of [Hamza Arshad](https://github.com/Hamza384/hamzaarshad). His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
