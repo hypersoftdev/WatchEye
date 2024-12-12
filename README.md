@@ -1,5 +1,8 @@
 # WatchEyeMonitor: Advanced ANR and Crash Management
 
+<img src="eye.webp" width="50%" height="50%" alt="eye"/>
+
+
 WatchEyeMonitor is a powerful library designed to effectively manage ANRs (Application Not Responding) and crashes caused by third-party
 integrations beyond your control. This library ensures that exceptions are handled efficiently, preventing them from being reported to the
 Google Play Console. With minimal configuration required, WatchEyeMonitor offers robust monitoring and management of ANRs and crashes,
