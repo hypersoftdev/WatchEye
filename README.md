@@ -1,7 +1,7 @@
 # WatchEyeMonitor: Advanced ANR and Crash Management
 
-<img src="grizzly.webp" width="50%" height="50%"/>
-hello 
+<img src="eye.webp" width="50%" height="50%"/>
+
 
 WatchEyeMonitor is a powerful library designed to effectively manage ANRs (Application Not Responding) and crashes caused by third-party
 integrations beyond your control. This library ensures that exceptions are handled efficiently, preventing them from being reported to the
