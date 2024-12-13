@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/hypersoftdev/WatchEye.svg)](https://jitpack.io/#hypersoftdev/WatchEye)
+
 # WatchEyeMonitor: Advanced ANR and Crash Management
 
 <img src="eye.png" width="25%" height="25%"/>
@@ -35,10 +37,16 @@ repositories {
 ```
 	
 
-Add the WatchEyeMonitor dependency to your build.gradle file
 
+In your app-level **build.gradle** file, add the library dependency. Use the latest version: [![](https://jitpack.io/v/hypersoftdev/WatchEye.svg)](https://jitpack.io/#hypersoftdev/WatchEye)
+
+Groovy Version
 ```
-implementation 'com.github.hypersoftdev:WatchEye:x.x.x'
+ implementation 'com.github.hypersoftdev:WatchEye:x.x.x'
+```
+Kts Version
+```
+ implementation("com.github.hypersoftdev:WatchEye:x.x.x")
 ```
 
 ### Setup Tutorial
